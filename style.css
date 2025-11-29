@@ -1,6 +1,6 @@
 .ueberschrift_banner {
     width: 100%;
-    height: 600px;                 /* Höhe des Banners */
+    height: 1200px;                 /* Höhe des Banners */
     background-image: url("background_h1.jpg"); /* Bild im Banner */
     background-size: cover;        /* Bild füllt komplett */
     background-position: center;   /* Bild zentrieren */
