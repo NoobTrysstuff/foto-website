@@ -34,10 +34,24 @@
 }
 
 header > .Navigation{
-    font-size: 35px;
-    color: black;
-    font-family: Arial;
     display: flex;
     gap: 20px;
     align-items: center;
 }
+
+header > .Navigation button{
+    font-size: 20px;         /* Einheitliche Größe */
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.Navigation button:hover {
+    background-color: black;
+    color: white;
+}
+
