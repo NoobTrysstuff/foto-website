@@ -1,6 +1,6 @@
 .ueberschrift_banner {
     width: 100%;
-    height: 300px;                 /* Höhe des Banners */
+    height: 600px;                 /* Höhe des Banners */
     background-image: url("background_h1.jpg"); /* Bild im Banner */
     background-size: cover;        /* Bild füllt komplett */
     background-position: center;   /* Bild zentrieren */
@@ -33,8 +33,9 @@
     margin: 0;
 }
 
-header > #Navigation{
+header > .Navigation{
     font-size: 35px;
     color: black;
     font-family: Arial;
+    display: flex;
 }
