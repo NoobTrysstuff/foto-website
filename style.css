@@ -1,26 +1,40 @@
+.ueberschrift_banner {
+    width: 100%;
+    height: 300px;                 /* Höhe des Banners */
+    background-image: url("background_h1.jpg"); /* Bild im Banner */
+    background-size: cover;        /* Bild füllt komplett */
+    background-position: center;   /* Bild zentrieren */
+    background-repeat: no-repeat;  /* Nicht wiederholen */
+    display: flex;                 
+    align-items: center;           /* Text vertikal zentrieren */
+    justify-content: center;       /* Text horizontal zentrieren */
+    position: relative;
+}
 
-        body{
-            background-color: none;
-            background-image: url("");
-            background-repeat: no-repeat;
-            background-blend-mode: darken;
-        }
+/* Dunkler Verlauf für bessere Lesbarkeit */
+.ueberschrift_banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);   /* halbtransparente schwarze Schicht */
+}
 
-        h1{
-            font-size: 70px;
-            color: black;
-            font-family: Arial;
-            text-align: center;
-            line-height: 90px;
-            background-color: none;
-            background-image: url("background_h1.jpg");
-        }
+/* Überschrift im Banner */
+.ueberschrift_banner h1 {
+    position: relative;
+    z-index: 2;                    /* Über dem dunklen Overlay */
+    color: white;
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
+    margin: 0;
+}
 
-      
-
-        header > #Navigation{
-            font-size: 35px;
-            color: black;
-            font-family: Arial;
-        }
-    
+header > #Navigation{
+    font-size: 35px;
+    color: black;
+    font-family: Arial;
+}
