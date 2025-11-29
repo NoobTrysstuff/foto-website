@@ -11,17 +11,16 @@
             color: black;
             font-family: Arial;
             text-align: center;
-            line-height: 150px;
+            line-height: 90px;
             background-color: none;
             background-image: url("background_h1.jpg");
         }
 
       
 
-        header > div.Navigation{
+        header > #Navigation{
             font-size: 35px;
             color: black;
             font-family: Arial;
         }
-
     
