@@ -1,0 +1,25 @@
+
+        body{
+            background-color: none;
+            background-image: url("background.jpg");
+            background-repeat: no-repeat;
+            background-blend-mode: darken;
+        }
+
+        h1{
+            font-size: 70px;
+            color: black;
+            font-family: Arial;
+            text-align: center;
+            line-height: 30px;
+            background-color: none;
+        }
+
+      
+
+        header > div.Navigation{
+            font-size: 35px;
+            color: black;
+            font-family: Arial;
+        }
+    
