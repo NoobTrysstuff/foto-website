@@ -48,7 +48,6 @@
         display: flex;
         height: 40px;
         width: auto; /* Passt das bild auf die Gewünscht größe an und behält Seitenverhältnis bei*/
-        align-items: baseline;
         justify-content: center;
     }
 
