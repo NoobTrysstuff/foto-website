@@ -39,6 +39,12 @@
         background-color: grey;
     }
 
+    header > .Logo{
+        height: 40px;
+        width: 40px;
+    }
+
+
     header > .Navigation{
         display: flex;
         gap: 20px;
