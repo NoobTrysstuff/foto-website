@@ -72,11 +72,12 @@
         background-color: grey;
         background-origin: border-box;
         align-items: center;
+        justify-content: center;
     }
 
     footer > #footer{
         color: black;
         gap: 20px;
         align-items: center;
-        justify-content: center;
+        
     }
