@@ -39,7 +39,7 @@
         background-color: grey;
     }
 
-    header > .LogoDiv > .Logo{
+    header > .Logo{
         height: 40px;
         width: auto; /* Passt das bild auf die Gewünscht größe an und behält Seitenverhältnis bei*/
     }
@@ -77,13 +77,12 @@
     footer{
         background-color: grey;
         background-origin: border-box;
-        align-items: center;
-        justify-content: center;
+        
     }
 
     footer > #footer{
         color: black;
         gap: 20px;
         align-items: center;
-        
+        justify-content: center;
     }
