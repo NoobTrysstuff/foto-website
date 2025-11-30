@@ -38,7 +38,8 @@
     header{
         background-color: grey;
         background-origin: border-box;
-        
+        align-items: flex-start;
+
     }
 
     header > .Navigation{
@@ -79,4 +80,5 @@
         color: black;
         gap: 20px;
         align-items: center;
+
     }
