@@ -39,9 +39,9 @@
         background-color: grey;
     }
 
-    header > .Logo{
+    header > .LogoDiv > .Logo{
         height: 40px;
-        width: 40px;
+        width: auto; /* Passt das bild auf die Gewünscht größe an und behält Seitenverhältnis bei*/
     }
 
 
