@@ -6,7 +6,8 @@
         background-size: cover;        /* Bild füllt komplett */
         background-position: center;   /* Bild zentrieren */
         background-repeat: no-repeat;  /* Nicht wiederholen */
-        display: flex;                 
+        display: flex;     
+        display-direction: column;
         align-items: center;           /* Text vertikal zentrieren */
         justify-content: center;       /* Text horizontal zentrieren */
         position: relative;
@@ -25,7 +26,7 @@
 
     /* Überschrift im Banner */
     .ueberschrift_banner h1 {
-        position: relative;
+        position: ;
         z-index: 2;                    /* Über dem dunklen Overlay */
         color: white;
         font-size: 60px;
@@ -107,3 +108,4 @@
         justify-content: center;
 
     }
+
