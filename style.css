@@ -95,8 +95,8 @@
         width: 150px;
         height: 400px;
         display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+        flex-direction: column;
+        gap: 40px;
         align-items: center;
         justify-content: center;
         position: relative;
@@ -106,8 +106,8 @@
     }
 
     .galerie_Inhalt > .galerie_Bild{
-        width: 100px;
-        height: auto;
+        width: auto;
+        max-height: 200px;
     }
 
     .galerie_Inhalt > .galerie_Text{
@@ -218,8 +218,8 @@
         height: 400px;
         padding: 20px;
         display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+        flex-direction: column;
+        gap: 40px;
         align-items: center;
         justify-content: center;
         position: relative;
@@ -234,6 +234,13 @@
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 20px;
+    }
+
+    .galerie_Inhalt > .galerie_Bild img{
+        height: auto;            /* Bild skaliert */
+        width: 80%;              /* passt sich dem Bildschirm an */
+        max-width: 300px;
+        justify-content: center;
     }
 
     .galerie_Inhalt > .galerie_Text{
