@@ -211,4 +211,38 @@
         font-size: 24px;         /* etwas kleiner für Handy */
         text-align: center;
     }
+
+/* Galerie - Kontent - Alle*/
+    .galerie_Inhalt{
+        width: auto;
+        height: 400px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: darkslategrey;
+        outline: 2px;
+        outline-color: black;
+    }
+
+    .galerie_Inhalt > .galerie_Bild{
+        width: auto;
+        height: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+    }
+
+    .galerie_Inhalt > .galerie_Text{
+        position: relative;
+        z-index: 2;                    /* Über dem dunklen Overlay */
+        color: white;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
+        margin: 0;
+    }
 }
