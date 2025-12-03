@@ -46,6 +46,9 @@
     }
 
 
+
+
+
 /* Kontent - Alle */
     .Inhalt{
         width: 100%;
@@ -142,6 +145,10 @@
         align-items: center;
         justify-content: center;
     }
+    
+
+
+
     
 /* ALLES NOCHMAL AUF DEM HANDY */    
 @media (max-width: 600px) {
