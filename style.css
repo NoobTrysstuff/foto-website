@@ -7,7 +7,7 @@
         background-position: center;   /* Bild zentrieren */
         background-repeat: no-repeat;  /* Nicht wiederholen */
         display: flex;     
-        display-direction: column;
+        flex-direction: column;
         align-items: center;           /* Text vertikal zentrieren */
         justify-content: center;       /* Text horizontal zentrieren */
         position: relative;
@@ -108,4 +108,5 @@
         justify-content: center;
 
     }
+
 
