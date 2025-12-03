@@ -47,7 +47,7 @@
 
 
 /* Konten */
-    .Inahlt{
+    .Inhalt{
         width: 100%;
         height: 200px;
         background-color: darkslategray;
@@ -61,10 +61,10 @@
     .Inhalt > .Bild{
         width: auto;
         height: 300px;
-        
+
     }
 
-    .Inahlt > .Text{
+    .Inhalt > .Text{
         position: relative;
         z-index: 2;                    /* Über dem dunklen Overlay */
         color: white;
