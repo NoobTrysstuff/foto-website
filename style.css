@@ -161,6 +161,7 @@
         height: auto;            /* Bild skaliert */
         width: 80%;              /* passt sich dem Bildschirm an */
         max-width: 300px;
+        align-items: center;
     }
 
     .Inhalt > .Text {
