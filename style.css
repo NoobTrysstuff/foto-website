@@ -87,7 +87,7 @@
     }
 
     .div_2 > .Inhalt{
-        background-color: rgb(60, 120, 120);
+        background-color: rgb(94, 127, 202);
     }
 
 
@@ -149,7 +149,7 @@
 
 
 
-    
+
 /* ALLES NOCHMAL AUF DEM HANDY */    
 @media (max-width: 600px) {
     header > .Navigation {
@@ -162,6 +162,12 @@
         height: auto;            /* automatisch anpassen */
         padding: 20px 0;
         gap: 20px;
+    }
+    
+    .Inhalt > .Bild{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .Inhalt > .Bild img {
