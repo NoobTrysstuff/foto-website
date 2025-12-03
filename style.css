@@ -31,10 +31,21 @@
         font-size: 60px;
         font-family: Arial, sans-serif;
         text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
-        margin: 0;
+        margin:  0
     }
 
 
+
+
+    .ueberschrift_banner h2 {
+        position: relative;
+        z-index: 2;                    /* Über dem dunklen Overlay */
+        color: white;
+        font-size: 60px;
+        font-family: Arial, sans-serif;
+        text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
+        margin: 0;
+    }
 
 
 
@@ -94,4 +105,5 @@
         gap: 20px;
         align-items: center;
         justify-content: center;
+
     }
