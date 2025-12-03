@@ -46,6 +46,20 @@
     }
 
 
+/* Konten */
+    .Inhalt > .Bild{
+        
+    }
+
+    .Inahlt > .Text{
+        position: relative;
+        z-index: 2;                    /* Über dem dunklen Overlay */
+        color: white;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
+        margin: 0;
+    }
 
 
 /* Kopfleiste*/
@@ -66,7 +80,8 @@
         flex: 1 1 50%;   /* 2 Buttons pro Reihe auf dem Handy */
         font-size: 14px; /* Schrift etwas kleiner */
     }
-}
+    }
+
     header > .Navigation button{
         font-size: 20px;         /* Einheitliche Größe */
         font-family: Arial, sans-serif;
