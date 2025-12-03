@@ -6,8 +6,7 @@
         background-size: cover;        /* Bild füllt komplett */
         background-position: center;   /* Bild zentrieren */
         background-repeat: no-repeat;  /* Nicht wiederholen */
-        display: flex;     
-        flex-direction: column;
+        display: flex;                 
         align-items: center;           /* Text vertikal zentrieren */
         justify-content: center;       /* Text horizontal zentrieren */
         position: relative;
@@ -26,19 +25,6 @@
 
     /* Überschrift im Banner */
     .ueberschrift_banner h1 {
-        position: absolut;
-        z-index: 2;                    /* Über dem dunklen Overlay */
-        color: white;
-        font-size: 60px;
-        font-family: Arial, sans-serif;
-        text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
-        margin:  0
-    }
-
-
-
-
-    .ueberschrift_banner h2 {
         position: relative;
         z-index: 2;                    /* Über dem dunklen Overlay */
         color: white;
@@ -51,8 +37,11 @@
 
 
 
+
+
 /* Kopfleiste*/
     header{
+        
         background-color: grey;
     }
 
@@ -66,11 +55,18 @@
 
     header > .Navigation{
         display: flex;
-        gap: 20px;
+        flex-wrap: wrap;
+        
         align-items: center;
         justify-content: center;
     }
 
+    @media (max-width: 600px) {
+        header > .Navigation {
+        flex: 1 1 50%;   /* 2 Buttons pro Reihe auf dem Handy */
+        font-size: 14px; /* Schrift etwas kleiner */
+    }
+}
     header > .Navigation button{
         font-size: 20px;         /* Einheitliche Größe */
         font-family: Arial, sans-serif;
@@ -102,12 +98,9 @@
     }
 
     footer > .links{
+        display: flex;
         color: black;
         gap: 20px;
         align-items: center;
         justify-content: center;
-
     }
-
-
-
