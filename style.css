@@ -146,7 +146,7 @@
 /* ALLES NOCHMAL AUF DEM HANDY */    
 @media (max-width: 600px) {
     header > .Navigation {
-        flex: wrap;   
+        flex-wrap: wrap;   
         font-size: 14px; /* Schrift etwas kleiner */
     }
 
@@ -161,7 +161,7 @@
         height: auto;            /* Bild skaliert */
         width: 80%;              /* passt sich dem Bildschirm an */
         max-width: 300px;
-        align-items: center;
+        justify-content: center;
     }
 
     .Inhalt > .Text {
