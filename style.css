@@ -47,7 +47,20 @@
 
 
 /* Konten */
+    .Inahlt{
+        width: 100%;
+        height: 200px;
+        background-color: darkslategray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
     .Inhalt > .Bild{
+        width: auto;
+        height: 300px;
         
     }
 
