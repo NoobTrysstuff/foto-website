@@ -49,7 +49,7 @@
 
 
 
-/* Kontent - Alle */
+/*Index - Kontent - Alle */
     .Inhalt{
         width: 100%;
         height: 400px;
@@ -81,7 +81,7 @@
 
 
 
-/* Kontent - Einzeln */
+/*Index - Kontent - Einzeln */
     .div_1 > .Inhalt{
         background-color: darkslategrey;
     }
@@ -90,7 +90,37 @@
         background-color: rgb(94, 127, 202);
     }
 
+/* Galerie - Kontent - Alle*/
+    .galerie_Inhalt{
+        width: 150px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: darkslategrey;
+        outline: 2px;
+        outline-color: black;
+    }
 
+    .galerie_Inhalt > .galerie_Bild{
+        width: 100px;
+        height: auto;
+    }
+
+    .galerie_Inhalt > .galerie_Text{
+        position: relative;
+        z-index: 2;                    /* Über dem dunklen Overlay */
+        color: white;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
+        margin: 0;
+    }
+
+/* Galerie - Kontent - Einzeln*/
 
 
 
