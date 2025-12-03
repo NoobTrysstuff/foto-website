@@ -35,7 +35,7 @@
         margin: 0;
     }
 
-   .ueberschrift_banner h2 {
+    .ueberschrift_banner h2 {
         position: relative;
         z-index: 2;                    /* Über dem dunklen Overlay */
         color: white;
@@ -46,11 +46,10 @@
     }
 
 
-/* Konten */
+/* Kontent - Alle */
     .Inhalt{
         width: 100%;
         height: 200px;
-        background-color: darkslategray;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -68,11 +67,27 @@
         position: relative;
         z-index: 2;                    /* Über dem dunklen Overlay */
         color: white;
-        font-size: 20px;
+        font-size: 40px;
         font-family: Arial, sans-serif;
         text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
         margin: 0;
     }
+
+
+
+
+
+/* Kontent - Einzeln */
+    .div_1 > .Inhalt{
+        background-color: darkslategrey;
+    }
+
+    .div_2 > .Inhalt{
+        background-color: rgb(60, 120, 120);
+    }
+
+
+
 
 
 /* Kopfleiste*/
@@ -90,9 +105,9 @@
 
     @media (max-width: 600px) {
         header > .Navigation {
-        flex: 1 1 50%;   /* 2 Buttons pro Reihe auf dem Handy */
-        font-size: 14px; /* Schrift etwas kleiner */
-    }
+            flex: 1 1 50%;   /* 2 Buttons pro Reihe auf dem Handy */
+            font-size: 14px; /* Schrift etwas kleiner */
+        }
     }
 
     header > .Navigation button{
@@ -112,7 +127,6 @@
         background-color: black;
         color: white;
     }
-
 
 
 
