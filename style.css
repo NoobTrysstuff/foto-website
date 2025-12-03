@@ -104,12 +104,7 @@
         justify-content: center;
     }
 
-    @media (max-width: 600px) {
-        header > .Navigation {
-            flex: 1 1 50%;   /* 2 Buttons pro Reihe auf dem Handy */
-            font-size: 14px; /* Schrift etwas kleiner */
-        }
-    }
+    
 
     header > .Navigation button{
         font-size: 20px;         /* Einheitliche Größe */
@@ -147,3 +142,29 @@
         align-items: center;
         justify-content: center;
     }
+    
+/* ALLES NOCHMAL AUF DEM HANDY */    
+@media (max-width: 600px) {
+    header > .Navigation {
+        flex: wrap;   
+        font-size: 14px; /* Schrift etwas kleiner */
+    }
+
+    .Inhalt {
+        flex-direction: column;  
+        height: auto;            /* automatisch anpassen */
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .Inhalt > .Bild img {
+        height: auto;            /* Bild skaliert */
+        width: 80%;              /* passt sich dem Bildschirm an */
+        max-width: 300px;
+    }
+
+    .Inhalt > .Text {
+        font-size: 24px;         /* etwas kleiner für Handy */
+        text-align: center;
+    }
+}
