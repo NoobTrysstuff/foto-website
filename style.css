@@ -6,7 +6,8 @@
         background-size: cover;        /* Bild füllt komplett */
         background-position: center;   /* Bild zentrieren */
         background-repeat: no-repeat;  /* Nicht wiederholen */
-        display: flex;                 
+        display: flex;   
+        flex-direction: column;              
         align-items: center;           /* Text vertikal zentrieren */
         justify-content: center;       /* Text horizontal zentrieren */
         position: relative;
@@ -34,7 +35,15 @@
         margin: 0;
     }
 
-
+   .ueberschrift_banner h2 {
+        position: relative;
+        z-index: 2;                    /* Über dem dunklen Overlay */
+        color: white;
+        font-size: 60px;
+        font-family: Arial, sans-serif;
+        text-shadow: 0 4px 20px rgba(0,0,0,0.6); /* Cooles Foto-Style Glow */
+        margin: 0;
+    }
 
 
 
@@ -44,14 +53,6 @@
         
         background-color: grey;
     }
-
-    header > .Logo{
-        display: flex;
-        height: 80px;
-        width: auto; /* Passt das bild auf die Gewünscht größe an und behält Seitenverhältnis bei*/
-        justify-content: center;
-    }
-
 
     header > .Navigation{
         display: flex;
